@@ -1,5 +1,8 @@
+
+@import url('https://fonts.googleapis.com/css?family=Hind+Madurai');
 /********* Fonts **********/
 
+button:focus {outline:0 !important;}
 
 :root {
     --content-font-size: 1vw; 
@@ -19,4 +22,387 @@ body {
 
 /****** Main Styling ******/
 
+.landing{
+	width: 100%;
+	background: linear-gradient(to bottom, rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('fallon-travels-785492-unsplash.jpg');
+	background-size: cover;
+	background-position: center bottom;
+}
 
+.dynamicHeader{
+	position: fixed;
+	margin: auto;
+	justify-content: center;
+	z-index: 100;
+	width: 100%;
+	background: rgb(44, 44, 44);
+	display: flex;
+	height: 0;
+	transition: all 0.5s;
+	overflow: hidden;
+}
+.dynamicHeaderButton{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	margin: 0px 50px 0px 20px;
+	background: none;
+	border: none;
+}
+
+.dynamicWording{
+	color: white;
+	font-size: 22px;
+	font-family: 'Hind Madurai';
+	font-weight: 400;
+	margin: 0;
+	padding: 15px 0px 15px 0px;
+}
+
+.headerActive{
+	display: flex;
+	background: rgb(39, 39, 39);
+	height: 60px;
+}
+
+.stationaryHeader{
+	margin: auto;
+	display: flex;
+	justify-content: center;
+	min-height: 50px;
+	padding: 25px 0px 0px 0px;
+}
+
+.stationaryHeaderButton{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	margin: 0px 50px 0px 20px;
+	background: none;
+	border: none;
+}
+
+.statWording{
+	color: white;
+	font-size: 22px;
+	font-family: 'Hind Madurai';
+	font-weight: 400;
+	margin: 0;
+	padding: 15px 0px 15px 0px;
+}
+.logoContainer{
+	width: 100%;
+	text-align: center;
+	padding-top: 25px;
+}
+.logo{
+	color: white;	
+}
+.logoNameContainer{
+	border-bottom: 3px solid white;
+	border-top: 3px solid white;
+	display: inline-block;
+}
+
+#logoTitle{
+	font-size: 80px;
+	font-family: 'Hind Madurai';
+	font-weight: 100;
+	line-height: 1;
+	margin: 0;
+}
+
+#menuTitle{
+	font-size: 60px;
+	font-family: 'Hind Madurai';
+	font-weight: 100;
+	line-height: 1;
+	margin: 0;
+}
+
+.logo p{
+	margin-top: 10px;
+	font-size: 34px;
+	font-weight: 100;
+	font-family: 'Hind Madurai';
+}
+
+.blurbContainer{
+	padding: 200px 0px 150px 0px;
+	width: 100%;
+	text-align: center;
+	
+}
+
+.blurbContainer h1{
+	color: white;
+	font-family: 'Hind Madurai';
+	font-size: 50px;
+}
+
+.blurbContainer h2{
+	color: orange;
+	font-family: 'Hind Madurai';
+	font-size: 30px;
+	margin-top: 10px;
+}
+
+.blurbSmallLine{
+	display:inline-block;
+	width: 60px;
+	height: 0;
+	border: 2px solid white;
+	background: white;
+}
+
+
+
+
+
+.about{
+	width: 100%;
+	background: white;
+	display: flex;
+	padding: 100px 0px 100px 0px;
+}
+
+.aboutInfoColumn{
+	width: 30%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.aboutContentColumn{
+	width: 70%;
+	padding: 0 15px 0 0;
+}
+
+.aboutContentColumn h1{
+	font-family: 'Hind Madurai';
+}
+
+.aboutContentColumn p{
+	padding: 50px 0px 0px 0px;
+	font-size: 20px;
+	font-family: 'Hind Madurai';
+}
+
+.hoursList{
+	padding: 20px 0px 0px 0px;
+}
+
+.hoursList h1{
+	font-family: 'Hind Madurai';
+	color: rgb(78, 20, 20);
+}
+
+.hoursList p{
+	font-family: 'Hind Madurai';
+}
+
+.phoneNumber{
+	padding: 50px 0px 0px 0px;
+}
+
+.phoneNumber h1{
+	font-family: 'Hind Madurai';
+	color: rgb(78, 20, 20);
+}
+
+.phoneNumber p{
+	font-family: 'Hind Madurai';
+}
+
+
+
+.menu{
+	min-height: 100vh;
+	width: 100%;
+	background: black;
+	padding: 0 0 75px 0;
+}
+
+
+.menuLogoContainer{
+	width: 100%;
+	text-align: center;
+	padding: 80px 0 50px 0;
+}
+.menuLogo{
+	color: white;	
+}
+.menuLogoNameContainer{
+	border-bottom: 3px solid white;
+	border-top: 3px solid white;
+	display: inline-block;
+	font-size: 35px;
+	font-family: 'Hind Madurai';
+	font-weight: 100;
+}
+.menuLogo p{
+	margin-top: 10px;
+	font-size: 24px;
+	font-weight: 100;
+	font-family: 'Hind Madurai';
+}
+
+.appetizerSection{
+	width: 100%;
+}
+
+.appetizerTitleContainer{
+	width: 100%;
+	text-align: center;
+}
+
+.appetizerTitleContainer h1{
+	color: rgb(255, 163, 102);
+	font-size: 25px;
+	font-family: 'Hind Madurai';
+	font-weight: 100;
+	padding-top: 40px;
+}
+
+.menuItem{
+	display: inline-flex;
+	color: white;
+	width: 30%;
+	padding: 50px 10px 0px 10px;
+}
+
+.menuContent{
+	display: flex;
+	flex-direction: column;
+	text-align: left;
+}
+
+.menuItemName p{
+	color: white;
+	font-family: 'Hind Madurai';
+	font-size: 18px;
+}
+
+.menuItemDescription{
+	padding: 6px 0px 0px 0px;
+}
+
+.menuItemDescription p{
+	color: rgb(211, 184, 184);
+	font-family: 'Hind Madurai';
+	font-size: 15px;
+}
+
+.menuPrice{
+	padding: 0px 0px 0px 20px;
+}
+
+.rowmenu{
+	width: 100%;
+	justify-content: flex-start;
+	padding: 0px 0px 50px 0px;
+}
+
+.carouselContainer{
+	background: white;
+}
+
+.location{
+	width: 100%;
+
+}
+
+.locationHeaderContainer{
+	width: 49%;
+	text-align: center;
+	padding: 80px 0 80px 0;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.locationHeaderContainer h1{
+	font-family: 'Hind Madurai';
+	font-size: 22px;
+	font-weight: 900;
+}
+
+.locationContentContainer{
+	padding: 0px 0px 80px 55px;
+}
+
+#map{
+	height: 400px;
+	width: 50%;
+	margin: 0px 0px 0px 0px;
+	display: inline-block;
+}
+
+.reservationSection{
+	width: 100%;
+	padding: 80px 0 0 0;
+}
+
+.reservationsTitleContainer{
+	width: 100%;
+	text-align: center;
+	padding: 0px 0px 100px 0px;
+}
+
+.reservationsTitleContainer h1{
+	font-family: 'Hind Madurai';
+	font-size: 30px;
+	color: rgb(165, 107, 0);
+	font-weight: 900;
+}
+
+.reservationsTitleContainer p{
+	padding: 15px 0 0 0;
+	font-family: 'Hind Madurai';
+}
+
+.reservationsTitleContainer button{
+	background: rgb(37, 37, 37);
+	color: white;
+	font-family: 'Hind Madurai';
+	border: none;
+	margin: 10px 0 0 0;
+	padding: 10px 20px 10px 20px;
+	border-radius: 50px;
+}
+
+.socialMedia{
+	width: 100%;
+	padding: 50px 0px 50px 0px;
+	background: rgb(197, 197, 197);
+}
+
+.socialMediaIconContainer{
+	display: flex;
+	justify-content: center;
+}
+
+.socialMediaIconContainer img{
+	height: 40px;
+	margin: 0px 25px 0px 25px;
+}
+
+.addressSection{
+	width: 100%;
+	padding: 50px 0px 50px 0px;
+	background: rgb(34, 34, 34);
+	text-align: center;
+}
+
+.addressContainer{
+
+}
+
+.addressContainer p{
+	color: white;
+}
+
+.activeButton{
+	color: rgb(226, 151, 10);
+}
